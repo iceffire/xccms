@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<constant name="struts.multipart.maxSize" value="1000000000"></constant>
+ <package name="default" namespace="/" extends="struts-default">
+ <interceptors>
+			<interceptor name="loginInterceptor"
+				class="edu.cqu.fly.xccms.interceptor.LoginInterceptor"></interceptor>
+			<interceptor name="timerInterceptor"
+				class="edu.cqu.fly.xccms.interceptor.TimerInterceptor"></interceptor>
+		</interceptors>
+ <global-results>
+			<result name="login">/admin/admin_login.jsp</result>
+			<result name="error">/common/common_fail.jsp</result>
+		</global-results>
+
+		<action name="index" class="edu.cqu.fly.xccms.action.MainAction" method="init">
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="index">/Pages/home/index2.jsp</result>
+		</action> 
+ <action name="Admin_*"  class="edu.cqu.fly.xccms.action.AdminAction" method="{1}">
+ 	<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+    <result name="adminindex">/admin/adminindex.jsp</result>
+    <result name="login">/admin/admin_login.jsp</result>
+ </action>
+ 	<!-- 菜单管理 -->
+		<action name="Menu_*" class="edu.cqu.fly.xccms.action.MenuAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="menu_show">/admin/menu.jsp</result>
+		</action>
+			<!-- 资源管理 -->
+		<action name="Resource_*" class="edu.cqu.fly.xccms.action.ResourceAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="index">/admin/resource_index.jsp</result>
+		</action>
+			<!-- 角色管理 -->
+		<action name="Role_*" class="edu.cqu.fly.xccms.action.RoleAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="index">/admin/role_index.jsp</result>
+		</action>
+			<!-- 用户管理 -->
+		<action name="User_*" class="edu.cqu.fly.xccms.action.UserAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="index">/admin/userlist.jsp</result>
+			<!-- <result type="json"></result> -->
+		</action>
+			<!-- 机构管理 -->
+		<action name="Org_*" class="edu.cqu.fly.xccms.action.OrgAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="org_show">/admin/org.jsp</result>
+		</action>
+			<!-- 新闻中心 -->
+		<action name="News_*" class="edu.cqu.fly.xccms.action.NewsAction" method="{1}">
+			<!-- <interceptor-ref name="json" /> -->
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="to_news_index">/news/news.jsp</result>
+			<result name="news_detail">/Pages/news/news_detail.jsp</result>
+			<result name="news_result">/Pages/news/news_home.jsp</result>
+			<result name="allnewscontribute">/Pages/news/statics.jsp</result>
+			<result name="index">/admin/news_index.jsp</result>
+		<!-- 	<result type="json"></result> -->
+		</action>
+		<!--上传action -->
+		<action name="Uploader_*" class="edu.cqu.fly.xccms.action.UploaderAction" method="{1}">
+		<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+			<!-- 新闻类别管理 -->
+		<action name="NewsType_*" class="edu.cqu.fly.xccms.action.NewsTypeAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="index">/admin/newstype_index.jsp</result>
+		</action>
+			<!-- 办公软件管理 -->
+		<action name="OfficeSoftware_*" class="edu.cqu.fly.xccms.action.OfficeSoftwareAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			
+			<result name="officesoftwares_result">/Pages/news/officesoftware_home.jsp</result>
+			<result name="index">/admin/officesoftware_index.jsp</result>
+		</action>
+				<!-- 资源表格管理 -->
+		<action name="ResourceTable_*" class="edu.cqu.fly.xccms.action.ResourceTableAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			
+			<result name="resourcetables_result">/Pages/news/resourcetable_home.jsp</result>
+			<result name="index">/admin/resourcetable_index.jsp</result>
+		</action>
+				<!-- 教学视频管理 -->
+		<action name="EduVideo_*" class="edu.cqu.fly.xccms.action.EduVideoAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="eduvideos_result">/Pages/news/eduvideo_home.jsp</result>
+			<result name="index">/admin/eduvideo_index.jsp</result>
+		</action>
+			<!-- 科研论文管理 -->
+		<action name="SciResearchPaper_*" class="edu.cqu.fly.xccms.action.SciResearchPaperAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="sciresearchpaper_detail">/Pages/news/sciresearchpaper_detail.jsp</result>
+			<result name="sciresearchpapers_result">/Pages/news/sciresearchpaper_home.jsp</result>
+			<result name="index">/admin/sciresearchpaper_index.jsp</result>
+		</action>
+			<!-- 超链接站点管理 -->
+		<action name="SiteUrl_*" class="edu.cqu.fly.xccms.action.SiteUrlAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="siteurls_result">/Pages/news/siteurl_home.jsp</result>
+			<result name="index">/admin/siteurl_index.jsp</result>
+		</action>
+			<!-- 留言管理 -->
+		<action name="BBSMessage_*" class="edu.cqu.fly.xccms.action.BBSMessageAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		    <result name="bbs_detail">/Pages/bbs/detail.jsp</result>
+			<result name="bbs_result">/Pages/bbs/index.jsp</result>
+			<result name="bbs_index">/Pages/bbs/redicter.jsp</result>
+			<result name="bbs_sent">/Pages/bbs/sent_bbs.jsp</result>
+			<result name="login">/Pages/bbs/login.jsp</result>
+			<result name="index">/admin/bbsmessage_index.jsp</result>
+		
+		</action>
+		<!-- 留言评论管理 -->
+		<action name="MessageComment_*" class="edu.cqu.fly.xccms.action.MessageCommentAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			
+			 <result name="bbs_detail">/Pages/bbs/detail.jsp</result>
+			<result name="index">/admin/messagecomment_index.jsp</result>
+		</action>
+			<!-- 先进个人管理 -->
+		<action name="ExcellentIndividual_*" class="edu.cqu.fly.xccms.action.ExcellentIndividualAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="excellent_detail">/Pages/news/excellent_detail.jsp</result>
+			
+			<result name="excellents_result">/Pages/news/excellent_home.jsp</result>
+			<result name="index">/admin/excellentindividual_index.jsp</result>
+		</action>
+		<!-- 总装新闻管理 -->
+		<action name="ZZNews_*" class="edu.cqu.fly.xccms.action.ZZNewsAction" method="{1}">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="timerInterceptor" />
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			
+			<result name="zznews_result">/Pages/news/zznews_home.jsp</result>
+			<result name="index">/admin/zznews_index.jsp</result>
+		</action>
+      </package>
+</struts>    

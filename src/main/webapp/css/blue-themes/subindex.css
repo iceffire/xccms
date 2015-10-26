@@ -1,0 +1,397 @@
+
+
+#left_content{
+	width:736px;float:left;
+	
+}
+
+#news_right_content{
+	width:730px;
+	float:left;
+	border: 1px solid #ABB1D5;
+	height: 100%;
+    margin-left: 5px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+}
+#news_right_content_detail{
+	float:left;
+	border: 1px solid #ABB1D5;
+    margin-left: 5px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    min-height: 432px;
+    
+}
+#right_content_top{
+	width:210px;
+	height:180px;
+	float:left;
+}
+#right_content_bottom{
+	width:210px;
+	float:left;
+}
+#right_content{
+	width:210px;
+	float:left;
+}
+#news_left_content{
+	width:210px;
+	float:left;
+	
+}
+#index_top{
+	height:100%;
+	float: left;
+	max-width: 950px;
+}
+#service_div{
+	position:relative;
+	width:950px;
+	margin:10px 0 0 0px;;
+}
+
+.service_left{
+	width:2px;
+	left:0;
+}
+.service_right{
+	width:2px;
+	right:0;
+}
+
+.service_content{
+	left:2px;
+	background:url(../../images/blue-themes/service_bg.gif) repeat-x top left transparent;
+	width:950px;
+}
+
+.pay_service_title{
+	margin:0 0 0 20px;
+}
+.split_spx {
+    background-color: #ABB1D5;
+    font-size: 0;
+    height: 1px;
+    margin: 5px 20px 5px  20px;
+}
+.merchantinfo_title{
+	margin:5px 0 0px 20px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.merchantinfo_logo{
+	margin:0 0 20px 20px;
+}
+
+.merchantinfo_content{
+	position:relative;
+	font-size: 15px;
+    background-color: #FFFFFF;
+}
+
+.pay_service_content{
+	position:relative;
+}
+
+#business_area{
+	position:absolute;
+	left:0px;
+	width:322px;
+	height:154px;
+	background-color:#FFFFFF;
+	margin-left:5px;
+	border:1px solid #ABB1D5;
+}
+
+#help_area{
+	position:absolute;
+	left:333px;
+	width:197px;
+	height:154px;
+	background-color:#FFFFFF;
+	border:1px solid #ABB1D5;
+	overflow: hidden;
+}
+
+#ad1_area{
+	position:absolute;
+	left:536px;
+	width:185px;
+	height:53px;
+	background-color:#FFFFFF;
+	border:1px solid #ABB1D5;
+}
+
+#ad2_area{
+	position:absolute;
+	left:536px;
+	top:59px;
+	width:185px;
+	height:95px;
+	background-color:#FFFFFF;
+	border:1px solid #ABB1D5;
+}
+
+.business_item_left{
+	background:url() no-repeat center left;
+	position:absolute;
+	padding-left:30px;
+	font-size:15px;
+	color:#4B54A1;
+	left:40px;
+	height:20px;
+}
+
+.merchant_info{
+	height: 90px;
+	margin-top: 480px;
+	border:1px solid #ABB1D5;
+	width: 945px;
+	
+}
+.merchant_info_new{
+	height: 90px;
+	border:1px solid #ABB1D5;
+	width: 945px;
+	float: left;
+	margin-top: 10px;
+	
+}
+.business_item_left a{
+	color:#4B54A1;
+}
+
+.business_item_right{
+	background:url() no-repeat center left;
+	position:absolute;
+	padding-left:30px;
+	font-size:15px;
+	color:#4B54A1;
+	left:170px;
+	height:20px;
+}
+
+.go_left{
+	background:url(../../images/blue-themes/go_left.gif) no-repeat center center;
+	position:absolute;
+	left:0px;
+	width:40px;
+	text-align:center;
+	height:150px;
+}
+
+.go_right{
+	background:url(../../images/blue-themes/go_right.gif) no-repeat center center;
+	position:absolute;
+	right:0;
+	width:40px;
+	text-align:center;
+	height:150px;
+}
+
+.help_title{
+	font-size:15px;
+	font-weight:bold;
+	color:#35386D;
+	width:80%;
+	margin-left:10px;
+	padding:5px 0 5px 10px;
+	
+	border-bottom:1px solid #C4C5D9;
+}
+
+.help_content a{
+	color:#35386D;
+}
+
+.help_content li{
+	background:url(../../images/blue-themes/help_li.gif) no-repeat center left;
+	color:#4F5393;
+	padding-left:15px;
+	height:25px;
+	line-height:25px;
+	margin-left:10px;
+	clear: both;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+.login_btn{
+	text-align:center;
+}
+
+.forget_password_area{
+	text-align:center;
+	border-bottom:1px solid #CACACA;
+	padding-bottom:15px;
+}
+
+.regist_label{
+	padding-top:10px;
+	font-weight:bold;color:#000000;
+}
+
+.regist_link{
+	margin:10px 0 0 50px;font-weight:bold;
+}
+
+.news_content{
+	list-style:none;
+	color:#4F5393;
+	padding:0px;
+}
+
+.news_content a{
+	color:#4F5393;
+}
+
+.news_content li{
+
+	background:url(../../images/blue-themes/li_style.gif) no-repeat center left;
+	line-height:20px;
+	clear:both;
+    overflow:hidden;
+    white-space: nowrap;
+    width:180px;
+	padding-left:15px;
+	text-overflow:ellipsis;
+	_width:165px;
+}
+
+#bank_icon{
+	
+	height: 30px;
+	border:1px solid #E6E6E6;
+}
+.al_acc{
+	background-color:#EDF0FF;
+	border:1px solid #D6D394;
+	height:60px;
+	margin:10px 5px 10px 5px;
+	line-height:30px;
+	padding-left:10px;
+}
+
+.al_acc span{
+	color:#F86E01;
+}
+
+.al_balance{
+	margin:10px;
+	font-size:14px;
+}
+
+.al_balance span{
+	color: #58B100;
+    font-weight: bold;
+    font-size:16px;
+}
+
+.al_enter{
+	text-align:center;
+}
+
+.al_link{
+	margin-top:10px;
+	padding:0 0 0 20px;
+}
+.al_link table{
+	
+}
+
+.al_link td{
+	text-align:left;
+	padding:5px;
+}
+#flash_div{
+	position:relative;
+	width:730px;
+	height:460px;
+}
+.flash_left{
+	position:absolute;
+	width:5px;
+	height:160px;
+	left:0;
+}
+.flash_right{
+	position:absolute;
+	width:5px;
+	height:460px;
+	right:0;
+}
+
+.flash_content{
+	position:absolute;
+	width:720px;
+	height:460px;
+}
+
+.normal_content_new{
+	border:1px solid #CFCFCF;
+	font-size:15px;
+	height: 423px;
+}
+
+.normal_content_new li{
+	margin:5px 10px 0 10px;
+}
+
+.md_61575_j_map{position:relative; font-size:12px;border:1px solid #ABB1D5; }
+.md_61575_j_map .title{background:url(../../images/blue-themes/nc_icon_01.gif) no-repeat 0 50%;color:#b82700;font:normal 21px/25px;left:10px;padding-left:20px;position:absolute;top:15px;}
+.md_61575_j_map .title a{color:#b82700;}
+.md_61575_j_map .md_bd{padding:0px 0px 0px 50px;}
+.md_61575_j_map .maparea{width:628px;height:462px;position:relative;background:url(../../images/blue-themes/map.jpg) left top no-repeat;}
+.md_61575_j_map .maparea .map {position:absolute;}
+
+.md_61575_j_map .maparea a {padding:3px;color:#006;}
+.md_61575_j_map .maparea a:hover {background:#40b4ea;color:#fff;text-decoration:none;padding:3px;}
+.md_61575_j_map .maparea .map1 {left:293px;top:198px;}
+.md_61575_j_map .maparea .map2 {left:302px;top:292px;}
+.md_61575_j_map .maparea .map3 {left:363px;top:243px;}
+.md_61575_j_map .maparea .map4 {left:360px;top:278px;}
+.md_61575_j_map .maparea .map5 {left:352px;top:324px;}
+.md_61575_j_map .maparea .map6 {left:363px;top:397px;}
+.md_61575_j_map .maparea .map6a {left:395px;top:387px;}
+.md_61575_j_map .maparea .map7 {left:329px;top:430px;}
+.md_61575_j_map .maparea .map8 {left:371px;top:370px;}
+.md_61575_j_map .maparea .map9 {left:422px;top:341px;}
+.md_61575_j_map .maparea .map10 {left:397px;top:316px;}
+.md_61575_j_map .maparea .map11 {left:445px;top:301px;}
+.md_61575_j_map .maparea .map12 {left:410px;top:269px;}
+.md_61575_j_map .maparea .map13 {left:454px;top:269px;}
+.md_61575_j_map .maparea .map14 {left:431px;top:243px;}
+.md_61575_j_map .maparea .map15 {left:412px;top:211px;}
+.md_61575_j_map .maparea .map16 {left:386px;top:188px;}
+.md_61575_j_map .maparea .map17 {left:414px;top:169px;}
+.md_61575_j_map .maparea .map18 {left:395px;top:146px;}
+.md_61575_j_map .maparea .map19 {left:450px;top:139px;}
+.md_61575_j_map .maparea .map20 {left:473px;top:105px;}
+.md_61575_j_map .maparea .map21 {left:76px;top:154px;}
+.md_61575_j_map .maparea .map22 {left:204px;top:157px;}
+.md_61575_j_map .maparea .map23 {left:193px;top:211px;}
+.md_61575_j_map .maparea .map24 {left:111px;top:266px;}
+.md_61575_j_map .maparea .map25 {left:251px;top:287px;}
+.md_61575_j_map .maparea .map26 {left:241px;top:364px;}
+.md_61575_j_map .maparea .map27 {left:296px;top:336px;}
+.md_61575_j_map .maparea .map28 {left:313px;top:374px;}
+.md_61575_j_map .maparea .map29 {left:320px;top:158px;}
+.md_61575_j_map .maparea .map30 {left:324px;top:240px;}
+.md_61575_j_map .maparea .map31 {left:356px;top:198px;}
+.md_61575_j_map .maparea .map32 {left:459px;top:369px;}
+.md_61575_j_map .maparea .map33 {left:476px;top:64px;}
+
+.md_61575_j_map .maparea .map .box {background:#40b4ea;border:1px solid #40b4ea;position:absolute;left:-178px;top:-3px;width:166px; padding:2px 3px 3px 10px;z-index:9999;}
+.md_61575_j_map .maparea .map .box .box2{height:217px; overflow-y:auto; overflow-x:hidden;}
+.md_61575_j_map .maparea .map .box p {background:url(../../images/blue-themes/dian2.jpg) left 9px no-repeat;padding:3px 0 3px 3px;zoom:1; line-height:25px; font-size:14px;}
+.md_61575_j_map .maparea .map .box span {display:block;text-align:right;font-family:"宋体";color:#faf103;padding-top:3px;}
+.md_61575_j_map .maparea .map .box span b {color:#faf103;font-weight:bold;}
+.md_61575_j_map .maparea .map .box a {padding:0;color:#fff;}
+.md_61575_j_map .maparea .map .box a:hover {font-weight:normal;background:#c0e6f7;color:#063a52;text-decoration:none;padding:4px;}
+.md_61575_j_map .maparea .side1 .box {left:auto;right:-178px;}
+.md_61575_j_map .maparea .side2 .box {left:auto;top:auto;right:-178px;bottom:-3px;}
+
+

@@ -1,0 +1,98 @@
+
+#om-ui-team {
+    font: 13px Î¢ÈíÑÅºÚ,ËÎÌå,Arial,Helvetica,sans-serif,simsun;
+    margin: 0 auto;
+    width: 960px;
+}
+#om-ui-team .om-ui-team-person {
+    float: left;
+    height: 304px;
+    margin: 10px 5px 15px 10px;
+    position: relative;
+    width: 170px;
+}
+#om-ui-team .card-bg {
+    border: 1px solid #BCDCF5;
+    height: 304px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 170px;
+    z-index: 100;
+}
+.card-style-1 {
+    background-image: url("../../images/blue-themes/card-bg-1.png");
+}
+.card-style-2 {
+    background-image: url("../../images/blue-themes/card-bg-2.png");
+}
+.card-style-3 {
+    background-image: url("../../images/blue-themes/card-bg-3.png");
+}
+.card-style-4 {
+    background-image: url("../../images/blue-themes/card-bg-4.png");
+}
+#om-ui-team .om-ui-team-person .intro {
+    color: #FFFFFF;
+    left: 13px;
+    line-height: 20px;
+    position: absolute;
+    top: 10px;
+    z-index: 101;
+}
+#om-ui-team .om-ui-team-person .title {
+    font-size: 12px;
+    margin-top: 5px;
+}
+#om-ui-team .om-ui-team-person .person-pic {
+    height: 205px;
+    left: 1px;
+    position: absolute;
+    top: 73px;
+    width: 170px;
+    z-index: 99;
+}
+.dialog-box{
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+	background: white;
+	border: 5px solid #1B75BB;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 250px;
+	z-index: 102;
+	box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
+}
+.dialog-box-before{
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 40px;
+	bottom: -33px;
+	border: 16px solid;
+	border-style: solid dashed dashed solid;
+	line-height: 0;
+	border-color: #1B75BB transparent transparent #1B75BB;
+}
+.dialog-box-after { 
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 45px;
+	bottom: -20px;
+	border: 14px solid;
+	border-style: solid dashed dashed solid;
+	line-height: 0;
+	border-color: white transparent transparent white;
+}
+#om-ui-team .om-ui-team-person .team-info {
+    bottom: 2px;
+    color: #1B75BB;
+    position: absolute;
+    right: 3px;
+    z-index: 102;
+}

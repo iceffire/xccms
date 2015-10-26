@@ -1,0 +1,146 @@
+
+.trade_search_condition{
+
+	height:31px;
+}
+
+.trade_search_condition li{
+	float:left;
+	height:31px;
+	line-height:31px;
+	color:#000000;
+	margin-left:15px;
+}
+
+.search_tab_left{
+	float:left;
+	background:url(../../images/blue-themes/search_tab_left_w.gif) no-repeat center left;
+	width:3px;
+	height:26px;
+	_margin-right:-3px;
+}
+
+.search_tab_right{
+	background:url(../../images/blue-themes/search_tab_right_w.gif) no-repeat center right;
+	float:right;
+	width:3px;
+	height:26px;
+	_margin-left:-3px;
+}
+
+.search_tab_content{
+	background:url(../../images/blue-themes/search_tab_bg_w.gif) repeat-x;
+	line-height:26px;
+	text-align:center;
+	height:26px;
+	
+}
+
+.search_area{
+	margin-top:20px;
+}
+
+.search_tab{
+	width:100px;
+	margin-right:5px;
+	color:#1E2E79;
+	float:left;
+	cursor:pointer;
+}
+
+.search_tab_focus{
+	color:#FFFFFF;
+}
+
+.search_tab_bottom{
+	background-color:#5055B0;
+	height:5px;
+	border:1px solid #4C3F88;
+	margin-top:-1px;
+	font-size: 0px;
+}
+
+#tradeRecords{
+	width:100%;
+}
+#tradeRecords td,th{
+	border:1px solid #CFCFCF;
+	height:30px;
+}
+
+.th_id{
+	width:150px;
+}
+.th_date{
+	width:120px;
+}
+.th_name{
+
+}
+.th_fund{
+	width:80px;
+}
+.th_opt{
+	width: 80px;
+}
+.th_status{
+	width:100px;
+}
+.th_remark{
+	width:100px;
+}
+.th_account{
+	width:140px;
+}
+
+.td_id{
+	text-align:center;
+}
+.td_date{
+	text-align:center;
+}
+.td_name{
+	text-align:center;
+}
+.td_fund{
+	color:#BF6705;
+	text-align:right;
+	font-weight:bold;
+}
+.td_opt{
+	text-align:center;
+}
+.td_status{
+	text-align:center;
+}
+.td_operation{
+	text-align:center;
+}
+.td_remark{
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.td_account{
+	text-align:center;
+	word-wrap: break-word;
+}
+#detail_dialog td{
+	padding:5px;
+	border:1px solid #CFCFCF;
+}
+#cancle_dialog td{
+	padding:5px;
+	border:1px solid #CFCFCF;
+}
+.ul_button{
+	padding-left: 150px;
+	
+}
+.ul_button li{
+	float:left;
+	line-height: 30px;
+	height: 30px;
+}
+#record_fund{
+	color:#BF6705;
+}

@@ -1,0 +1,223 @@
+.problem_area{
+	margin:20px 100px 30px 100px;	
+}
+.question{
+	list-style-image:url(../../images/blue-themes/li_style.gif);
+	font-weight:bold;
+	margin-top:10px;
+	margin-left:10px;
+	font-size:14px;
+}
+
+.answer{
+	margin-left:10px;
+	font-size:14px;
+}
+
+.back{
+	text-align:center;
+}
+.type1, .type2, .type3, .type4, .type5, .type6, .type7, .type8 {
+    background: url("../../images/blue-themes/ico_index.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.inner {
+    background: url("../../images/blue-themes/index_bd_bottom.gif") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    padding-bottom: 5px;
+    width: 720px;
+}
+.inner_tit {
+    background: url("../../images/blue-themes/index_bd_top.gif") no-repeat scroll center top rgba(0, 0, 0, 0);
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 15px;
+}
+.inner_con {
+    background: url("../../images/blue-themes/index_bd_middle.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 25px 15px;
+    width: 690px;
+}
+.type {
+    border-bottom: 1px dashed #DDDDDD;
+    padding: 5px 0 10px 50px;
+}
+.type h3 a {
+    color: #333333;
+    text-decoration: none;
+}
+.type1 {
+    background-position: 0 5px;
+}
+.type2 {
+    background-position: 0 -75px;
+}
+.type3 {
+    background-position: 0 -155px;
+}
+.type4 {
+    background-position: 0 -235px;
+}
+.type5 {
+    background-position: 0 -315px;
+}
+.type6 {
+    background-position: 0 -395px;
+}
+.type7 {
+    background-position: 0 -475px;
+}
+.type8 {
+    background-position: 0 -555px;
+}
+.type h3 {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+}
+.category {
+    overflow: hidden;
+}
+.category li {
+    float: left;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 15px;
+}
+.category dt {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+}
+.category dd {
+    float: left;
+    font-size: 14px;
+    margin-right: 15px;
+}
+.category a {
+    color: #666666;
+    text-decoration: none;
+}
+.category a:hover {
+    color: #CC0000;
+}
+.bn {
+    border-bottom: medium none;
+}
+.right_bd {
+	 border-bottom: 1px solid #FFD5AB;
+    width: 225px;
+}
+.right_bd_top {
+     border-top: 1px solid #FFD5AB;
+    overflow: hidden;
+    width: 225px;
+}
+.right_bd_con {
+    background: none repeat scroll 0 0 #FDFCF9;
+    border-left: 1px solid #FFD5AB;
+    border-right: 1px solid #FFD5AB;
+    height: 522px;
+    width:182px;
+    padding: 15px;
+}
+.right_bd_con tr a {
+    background-position: -900px -275px;
+    color: #333333;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.right_bd_con h3 {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.right_bd_list {
+    margin-bottom: 20px;
+}
+.right_bd_list li {
+    background-position: -900px -270px;
+    background: url("../../images/blue-themes/li_style.gif") no-repeat scroll left center rgba(0, 0, 0, 0);
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.right_bd_list a {
+    color: #333333;
+    text-decoration: none;
+}
+.right_bd_list a:hover {
+    color: #CC0000;
+}
+.inner_results {
+    background: url("../../images/blue-themes/results_bg_top.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    padding-top: 5px;
+    width: 720px;
+}
+.results_bottom {
+    background: url("../../images/blue-themes/results_bg_bottom.gif") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    height: 80px;
+    position: relative;
+}
+.results_con {
+    background: url("../../images/blue-themes/index_bd_middle.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 25px 30px;
+    width: 660px;
+}
+.resultes_search {
+    background-position: 0 -280px;
+    height: 38px;
+    left: 30px;
+    position: absolute;
+    top: 25px;
+    width: 519px;
+}
+.results_list {
+    margin-bottom: 25px;
+}
+.results_tit {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.results_tit dt {
+    float: left;
+    font-size: 14px;
+}
+.results_tit dd {
+    float: right;
+    text-align: right;
+    width: 60px;
+}
+.results_tit a {
+    color: #336699;
+    text-decoration: underline;
+}
+.font_red {
+    color: #CC0000;
+}
+.redtxt {
+    color: #505050;
+    font-size: 14px;
+    font-weight: bold;
+}
+.show {
+    background: url("../../images/blue-themes/dian.gif") repeat-x scroll center bottom rgba(0, 0, 0, 0);
+    color: #505050;
+    height: 152px;
+    line-height: 190%;
+    margin: 10px auto;
+    width: 900px;
+}
+
+.split_spx {
+	border-bottom: 1px dashed #DCDCDC;
+	font-size: 0;
+	height: 1px;
+	margin-left: 3px;
+	margin-right: 3px;
+}

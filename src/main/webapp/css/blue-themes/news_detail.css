@@ -1,0 +1,21 @@
+.news_title{
+	text-align:center;
+	margin:30px;	
+}
+.news_date{
+	text-align:center;
+}
+.news_content{
+	font-size: 14px;
+	line-height: 24px;
+	margin:30px;
+}
+
+.news_content p{
+	text-indent: 2em;
+	margin:10px;
+}
+
+.back{
+	text-align:center;
+}

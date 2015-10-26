@@ -1,0 +1,1131 @@
+
+@charset "gb2312";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+dl, dt, ul, li {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0 none;
+}
+i, em {
+    font-style: normal;
+}
+
+form, p, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+input, select, option {
+    font-size: 12px;
+}
+textarea {
+    font-size: 12px;
+}
+noscript {
+    display: none;
+}
+.spanclass {
+    display: none;
+    float: left;
+    font-size: 5px;
+    height: 5px;
+    left: -15px;
+    line-height: 5px;
+    position: absolute;
+    top: -15px;
+    width: 5px;
+}
+.hidden {
+    display: none;
+}
+.center {
+    margin: 0 auto;
+    width: 950px;
+}
+.main {
+    text-align: left;
+}
+.tN_l, .tN_r .inFcList li span, .pictxt li .dow a, .modBl .tbB li, .modBr .tbB .weibo, .opinion a, .iPanD .slideDown .benDD, .inFtxt .modCl li, .inFtxt .modCr dd em, .inFtxt .modCr dd.downLink a, .wapInf dt, .inFtxt .modCr dt.xiaIcon, .question .ulList li {
+    background: url("../../images/blue-themes/appIcon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.fontWei {
+    font-family: "Microsoft Yahei";
+}
+.blank20px {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.blue, .blue a, .inFtxt .modCl a, .iPanD .slideDown span a, .inFtxt .modCr dt a {
+    color: #0055AA;
+}
+.inFtxt .modCl a:hover, .iPanD .slideDown span a:hover, .inFtxt .modCr dt a:hover, .inFtxt .modCr dd em a:hover, .IconList li a:hover, .iPanD .HDsliDown span a:hover {
+    color: #FF6600;
+}
+body .mb15 {
+    margin-bottom: 15px;
+}
+.col3, .col3 a, .wapInf dd span {
+    color: #333333;
+}
+.col7, .col7 a, .inFtxt .modCr dd em a, .IconList li a, .wapInf dd {
+    color: #777777;
+}
+.pictxt li.ptH .ptTxt dt a, .pictxt li.ptH .dow, .pictxt li.ptH .ptTxt dt a, .pictxt li.ptH .dow a, .iPanD .HDsliDown .sDli2 .waiDD:hover {
+    color: #FFFFFF;
+}
+.iPanD .HDsliDown .sDli2 .waiDD {
+    color: #5D93D0;
+}
+.navibar-in-wrap {
+    background: none repeat scroll 0 0 #F3F3F3;
+    border-bottom: 1px solid #E3E3E3;
+}
+.navibar-in-wrap #navibar {
+    border-bottom: medium none;
+}
+.topNavs {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 79px;
+    position: relative;
+    z-index: 99;
+}
+.tN_l {
+    background-position: 10px 0;
+    float: left;
+    height: 53px;
+    margin-top: 13px;
+    padding-left: 10px;
+    width: 279px;
+}
+.tN_l a {
+    display: block;
+    float: left;
+}
+.tN_l a.tNlogo {
+    height: 53px;
+    width: 102px;
+}
+.tN_l a.appLogo {
+    float: right;
+    height: 30px;
+    margin-top: 13px;
+    width: 143px;
+}
+.tN_r {
+    float: right;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    padding-top: 19px;
+    width: 670px;
+}
+.tN_r li {
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.tN_r li a {
+    color: #333333;
+}
+.tN_r li a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.tN_r a.appind {
+    display: block;
+    height: 40px;
+    width: 55px;
+}
+.tN_r a.currnt, #indexclient .appind, #indexclient .appind:hover, #chinaJoy .chinaJoyA, #chinaJoy .chinaJoyA:hover, #iPhone_android .infFclientA, #iPhone_android .infFclientA:hover, #syblHD .HDclientA, #syblHD .HDclientA:hover, #win8 .win8, #win8 .win8:hover, #ipad .ipad, #ipad .ipad:hover, #wap .WAPclientA, #wap .WAPclientA:hover {
+    background: none repeat scroll 0 0 #5D93D0;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+.tN_r .inFclient {
+    position: relative;
+}
+.tN_r .clientA, .tN_r a.currnt {
+    display: block;
+    font-weight: bold;
+    height: 40px;
+}
+.tN_r .inFclientH .clientA, .tN_r .clientA:hover {
+    background: none repeat scroll 0 0 #232323;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.tN_r .infFclientA, .tN_r .HDclientA, .tN_r .win8, .tN_r .ipad, .tN_r .today, .tN_r .dlapp {
+    width: 98px;
+}
+.tN_r .WAPclientA {
+    width: 70px;
+}
+.tN_r .morEclientA {
+    width: 55px;
+}
+.tN_r .inFclient ul {
+    border-bottom: 1px solid #2F2F2F;
+    border-right: 1px solid #2F2F2F;
+    display: none;
+    position: absolute;
+    top: 40px;
+}
+.tN_r .inFclient ul.moBList {
+    left: 0;
+    width: 313px;
+}
+.tN_r .inFclient ul.morElist {
+    right: 0;
+    width: 626px;
+}
+.tN_r .inFclientH ul {
+    display: block;
+}
+#iPhone_android .tN_r .ipanclient ul {
+    display: none;
+}
+.tN_r .inFcList li {
+    background: none repeat scroll 0 0 #232323;
+    border-left: 1px solid #2F2F2F;
+    border-top: 1px solid #2F2F2F;
+    display: block;
+    font-family: "ËÎÌו";
+    font-size: 12px;
+    height: 72px;
+    line-height: 20px;
+    padding-left: 18px;
+    position: relative;
+    text-align: left;
+    width: 294px;
+}
+.tN_r .inFcList li.inFcliH {
+    background-color: #101011;
+}
+
+.tN_r .inFcList li i {
+    color: #FFFFFF;
+    float: left;
+    height: 20px;
+    margin: 17px 0 0 10px;
+    overflow: hidden;
+    width: 240px;
+}
+.tN_r .inFcList li em {
+    color: #777777;
+    float: left;
+    height: 20px;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 240px;
+}
+.tN_r .inFcList li em.spec {
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+}
+.tN_r .inFcList li span {
+    float: left;
+    height: 34px;
+    margin-top: 19px;
+    width: 34px;
+}
+.tN_r .moBList li span.icIcon1 {
+    background-position: 0 -210px;
+}
+.tN_r .moBList li.inFcliH span.icIcon1 {
+    background-position: -35px -210px;
+}
+.tN_r .moBList li span.icIcon2 {
+    background-position: -70px -210px;
+}
+.tN_r .moBList li.inFcliH span.icIcon2 {
+    background-position: -105px -210px;
+}
+.tN_r .moBList li span.icIcon3 {
+    background-position: -139px -210px;
+}
+
+.top {
+    margin: 0 auto;
+    width: 990px;
+}
+#slide02 {
+    height: 420px;
+    overflow: hidden;
+    padding-bottom: 45px;
+    position: relative;
+    width: 950px;
+}
+#slide02 .contentWrap, #slide02 .tabContent {
+    height: 420px;
+    overflow: hidden;
+}
+#slide02 .tabIndex, #slide02 .tabHD {
+    height: 440px;
+    overflow: hidden;
+}
+#slide02 .c, #slide02 .divC {
+    height: 420px;
+    overflow: hidden;
+    width: 950px;
+}
+#slide02 .control {
+    position: relative;
+    z-index: 100;
+}
+#slide02 .control li {
+    height: 6px;
+    list-style: none outside none;
+    overflow: hidden;
+    position: absolute;
+    top: 435px;
+}
+#slide02 .control li {
+    height: 455px;
+}
+#slide02 .control .prev, #slide02 .control .next {
+    height: 64px;
+    top: 180px;
+    width: 64px;
+}
+#slide02 .control .prev {
+    left: 10px;
+}
+#slide02 .control .next {
+    right: 10px;
+}
+#slide02 .control a {
+    background: none repeat scroll 0 0 #DADADA;
+    display: block;
+    height: 6px;
+    position: relative;
+    width: 28px;
+}
+#slide02 .control a:hover, #slide02_control .current a {
+    background: none repeat scroll 0 0 #5D93D0;
+    height: 6px;
+    width: 28px;
+}
+#slide02 .control .preva, #slide02 .control .nexta, #slide02 .control .prevaH, #slide02 .control .nextaH {
+    cursor: pointer;
+    display: block;
+    height: 64px;
+    width: 64px;
+}
+.pictxt {
+    border-bottom: 1px dashed #E5E5E5;
+    margin-bottom: 27px;
+    padding-bottom: 10px;
+}
+.pictxt li {
+    background: none repeat scroll 0 0 #E2E7D0;
+    float: left;
+    height: 185px;
+    overflow: hidden;
+    position: relative;
+    width: 465px;
+}
+.pictxt li .ptPic {
+    left: 30px;
+    position: absolute;
+    top: 20px;
+}
+.pictxt li .ptTxt {
+    position: absolute;
+    right: 27px;
+    top: 10px;
+    width: 324px;
+}
+.pictxt li .ptTxt dt {
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+.pictxt li.ptH .ptTxt dt {
+    color: #FFFFFF;
+}
+.pictxt li.ptH {
+    background: none repeat scroll 0 0 #232323;
+}
+.pictxt li .ptTxt dt a, .pictxt li .ptTxt dd span, .pictxt li.ptH .ptTxt dd span a, .pictxt li .ptTxt dt {
+    color: #333333;
+}
+.pictxt li .ptTxt dd {
+    color: #777777;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+.pictxt li .ptTxt dd p {
+    padding-bottom: 15px;
+}
+.pictxt li .ptTxt dd p a {
+    color: #777777;
+}
+.pictxt li .dow {
+    color: #333333;
+    left: 114px;
+    position: absolute;
+    top: 138px;
+}
+.pictxt li .dow a {
+    background-position: -516px -105px;
+    color: #0055AA;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-right: 16px;
+}
+.pictxt li.ptH .dow a {
+    background-position: -516px -61px;
+}
+.ptTxt dt {
+    position: relative;
+}
+.ptTxt dt span {
+    background: url("http://www1.pconline.com.cn/2012/wapapp/img/redtab.png") no-repeat scroll 5px 16px rgba(0, 0, 0, 0);
+    float: left;
+    height: 20px;
+    left: 115px;
+    position: absolute;
+    top: -5px;
+}
+.ptTxt dt span i {
+    background: none repeat scroll 0 0 #E60000;
+    color: #FFFFFF;
+    float: left;
+    font-family: Arial,"ËÎÌו";
+    font-size: 12px;
+    height: 16px;
+    line-height: 15px;
+    padding: 0 4px;
+    white-space: nowrap;
+}
+.pictxt li .ptTxt dt i a {
+    color: #FFFFFF;
+}
+.pictxt li .ptTxt dt {
+    overflow: initial;
+}
+.pictxt li .detail {
+    padding-left: 163px;
+}
+.shadow {
+    background: none repeat scroll 0 0 #232323;
+    display: none;
+    height: 185px;
+    position: absolute;
+    width: 465px;
+}
+.ml10 {
+    margin-left: 10px;
+}
+.mr10 {
+    margin-right: 10px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.modB {
+    float: left;
+    padding-bottom: 50px;
+    width: 475px;
+}
+.modB .thB {
+    color: #0055AA;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 21px;
+}
+.modB .tbB li {
+    background-position: 0 -168px;
+    color: #333333;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 21px;
+    overflow: hidden;
+    padding-left: 8px;
+    position: relative;
+    vertical-align: middle;
+}
+.modBl .thB {
+    padding-left: 21px;
+}
+.modBl .tbB li {
+    background-position: 0 -168px;
+}
+.modBl .tbB li a {
+    color: #333333;
+    display: inline;
+    float: left;
+    width: 340px;
+}
+.modBl .tbB li a:hover {
+    color: #FF6600;
+}
+.modBl .tbB li span {
+    color: #777777;
+    float: right;
+    padding-right: 30px;
+}
+.modBr .thB {
+    padding-left: 31px;
+}
+.modBr .tbB {
+    position: relative;
+}
+.modBr .tbB .weibo {
+    background-position: -115px -59px;
+    border: 0 none;
+    color: #777777;
+    display: block;
+    height: 40px;
+    padding-top: 55px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    top: -28px;
+    width: 78px;
+}
+.modBr .tbB .weibo:hover {
+    background-position: -203px -59px;
+    color: #FFFFFF;
+}
+.opinion {
+    height: 68px;
+    position: fixed;
+    right: 0;
+    top: 380px;
+    width: 50px;
+    z-index: 9999;
+}
+.opinion #opinionA {
+    background-position: 0 -59px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    height: 38px;
+    line-height: 16px;
+    padding: 40px 10px 0;
+    width: 30px;
+}
+.opinion #opinionA:hover {
+    background-position: -56px -59px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.weibo {
+    border: 1px solid #D2D2D2;
+}
+.p0Nav {
+    height: 44px;
+    padding-left: 385px;
+    padding-top: 25px;
+}
+.p0Nav a {
+    float: left;
+    font-size: 20px;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 42px;
+}
+.p0Nav #toc {
+    color: #AAAAAA;
+}
+.p0Nav #toc:hover {
+    border-bottom: 2px solid #AAAAAA;
+    text-decoration: none;
+}
+.p0Nav #currnt, .p0Nav #currnt:hover {
+    border-bottom: 2px solid #5D93D0;
+    color: #5D93D0;
+    text-decoration: none;
+}
+.iPanD #slide02 .c {
+    position: relative;
+}
+.iPanD .slideDown {
+    left: 507px;
+    position: absolute;
+    top: 290px;
+    z-index: 100;
+}
+.iPanD .slideDown li {
+    float: left;
+    margin-right: 10px;
+}
+.iPanD .slideDown li.sDli1 {
+    width: 199px;
+}
+.iPanD .IPslideDown li.sDli1, .iPanD .HDsliDown li.sDli1, .iPanD .HDsliDown span .sdW1, .iPanD .HDsliDown li.sDli1 span a {
+    width: 185px;
+}
+.iPanD .slideDown li.sDli2, .iPanD .HDsliDown span .sdW2, .iPanD .HDsliDown li.sDli2 span a {
+    width: 138px;
+}
+.iPanD .slideDown a {
+    display: block;
+    text-align: center;
+}
+.iPanD .slideDown .benDD {
+    background-position: 0 -250px;
+    height: 80px;
+    width: 199px;
+}
+.iPanD .slideDown .iPbenD {
+    background-position: 0 -332px;
+}
+.iPanD .slideDown .iPbenD2 {
+    background-position: 0 -497px;
+}
+.iPanD .HDsliDown .HDbenD {
+    background-position: 0 -414px;
+}
+.iPanD .slideDown .benDD:hover {
+    background-position: -200px -250px;
+}
+.iPanD .slideDown .iPbenD:hover {
+    background-position: -200px -332px;
+}
+.iPanD .slideDown .iPbenD2:hover {
+    background-position: -200px -497px;
+}
+.iPanD .HDsliDown .HDbenD:hover {
+    background-position: -200px -332px;
+}
+.iPanD .slideDown span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #F2F8FF;
+    border-color: -moz-use-text-color #C1D8F2 #C1D8F2;
+    border-image: none;
+    border-right: 1px solid #C1D8F2;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    display: block;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+}
+.iPanD .HDsliDown span {
+    position: relative;
+}
+.iPanD .slideDown .waiDD {
+    background: none repeat scroll 0 0 #5D93D0;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 39px;
+    text-decoration: none;
+}
+.iPanD .HDsliDown .waiDD {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.iPanD .slideDown .waiDD:hover {
+    background: none repeat scroll 0 0 #232323;
+}
+.iPanD .slideDown .waiDD1 {
+    border-bottom: 1px solid #76A5D9;
+    height: 40px;
+}
+.iPanD .HDsliDown .waiDD1 {
+    border-bottom-color: #DAEBFF;
+}
+.iPanD .HDslideDown .waiDD1 {
+    border-bottom-color: #DAEBFF;
+}
+.iPanD .slideDown .waiDD2 {
+    height: 39px;
+}
+.iPanD .inFtxt {
+    border-top: 1px dashed #E5E5E5;
+}
+.modC {
+    padding-left: 21px;
+}
+.modC .thC {
+    color: #0055AA;
+    font-size: 18px;
+    height: 53px;
+    line-height: 53px;
+    overflow: hidden;
+}
+.inFtxt .left {
+    float: left;
+    width: 596px;
+}
+.inFtxt .right {
+    float: right;
+    width: 310px;
+}
+.inFtxt .modC {
+    float: left;
+    margin-top: 3px;
+}
+.inFtxt .modCl {
+    width: 596px;
+}
+.inFtxt .modCl a, .inFtxt .modCr dt a {
+    font-size: 12px;
+    padding-left: 20px;
+}
+.inFtxt .modCl li {
+    background-position: -610px -160px;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    padding-left: 17px;
+    position: relative;
+    vertical-align: middle;
+}
+.inFtxt .modCr {
+    float: left;
+    width: 310px;
+}
+.modC .thC .more {
+    color: #0055AA;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.inFtxt .modCr ul li {
+    font: 14px/30px "Microsoft Yahei";
+}
+.inFtxt .modCr dt {
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+}
+.inFtxt .modCr dt.xiaIcon {
+    background-position: -578px -408px;
+}
+.inFtxt .modCr dt span {
+    padding-right: 5px;
+}
+.inFtxt .modCr dt.xiaIcon span {
+    padding-right: 33px;
+}
+.inFtxt .modCr dd em {
+    background-position: -610px -168px;
+    float: left;
+    height: 27px;
+    line-height: 20px;
+    overflow: hidden;
+    padding-left: 11px;
+}
+.inFtxt .modCr dd em.clear {
+    height: 0;
+}
+.inFtxt .modCr dd .emW1 {
+    width: 88px;
+}
+.inFtxt .modCr dd .emW2 {
+    width: 104px;
+}
+.inFtxt .modCr dd .emW3 {
+    width: 81px;
+}
+.inFtxt .modCr dd.downLink a {
+    background-position: -321px 0;
+    color: #777777;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 294px;
+}
+.inFtxt .modCr dd.downLink a:hover {
+    color: #777777;
+    text-decoration: none;
+}
+.IconList {
+    padding-top: 40px;
+}
+.IconList .tbC {
+    height: 158px;
+}
+.IconList li {
+    float: left;
+    line-height: 22px;
+    margin: 13px 35px 0 0;
+    text-align: center;
+    width: 70px;
+}
+.IconList li img {
+    display: block;
+}
+.pt30 {
+    padding-top: 30px;
+}
+.HDbg {
+    background: url("http://www1.pconline.com.cn/mobile/syblbg_new.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
+    padding-top: 19px;
+}
+.HDtbC ul {
+    float: right;
+    width: 476px;
+}
+.inFtxt .modCl .HDlogo {
+    float: left;
+    padding-left: 0;
+    padding-top: 12px;
+}
+.iPanD .HDsliDown {
+    left: 530px;
+    top: 250px;
+}
+.wapmain {
+    padding-top: 40px;
+}
+.wapleft {
+    background: url("http://www1.pconline.com.cn/zt/gz20120309/pcwap/images/phone.jpg") no-repeat scroll 40px 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 565px;
+    padding: 66px 0 0 74px;
+    width: 279px;
+}
+.wapright {
+    float: right;
+    width: 573px;
+}
+.wapInf dl {
+    height: 65px;
+    overflow: hidden;
+    padding: 39px 0 0 15px;
+}
+.wapInf dt {
+    float: left;
+    height: 40px;
+    width: 38px;
+}
+.wapInf dt.wapdt1 {
+    background-position: -580px -220px;
+}
+.wapInf dt.wapdt2 {
+    background-position: -577px -264px;
+}
+.wapInf dt.wapdt3 {
+    background-position: -579px -309px;
+}
+.wapInf dt.wapdt4 {
+    background-position: -577px -360px;
+}
+.wapInf dd {
+    float: right;
+    line-height: 24px;
+    padding-right: 22px;
+    width: 484px;
+}
+.wapInf dd span {
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+    padding-bottom: 4px;
+}
+.question {
+    background: url("http://www1.pconline.com.cn/zt/gz20120309/pcwap/images/listbg.jpg") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 0 40px 20px;
+    width: 871px;
+}
+.bbB, .bt {
+    background: url("http://www1.pconline.com.cn/zt/gz20120309/pcwap/images/list_tb.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    clear: both;
+    font-size: 1px;
+    height: 4px;
+    line-height: 4px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 950px;
+}
+.bbB {
+    background-position: 0 -5px;
+}
+.bt {
+    margin-top: 20px;
+}
+.question .top {
+    padding: 10px 0 20px;
+    width: 860px;
+}
+.question h1 {
+    border-bottom: 2px solid #E4E4E4;
+    color: #0055AA;
+    font: 18px/53px "Microsoft Yahei";
+    height: 53px;
+}
+.question .ulList {
+    color: #0055AA;
+    float: left;
+    width: 420px;
+}
+.question .ulList li a:link, .question .ulList li a:visited {
+    color: #0055AA;
+}
+.question .mr20 {
+    margin-right: 20px;
+}
+.question .ulList li {
+    background-position: -610px -160px;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    padding-left: 17px;
+    position: relative;
+    vertical-align: middle;
+}
+.question .artList li {
+    border-top: 2px dotted #E4E4E4;
+    padding: 10px 0 20px;
+}
+.question .artList span {
+    display: block;
+}
+.question .artList span.sTit {
+    color: #333333;
+    font: 20px/40px "Microsoft Yahei";
+}
+.question .artList span.sTit a:link, .question .artList span.sTit a:visited {
+    color: #333333;
+}
+.question .ulList li a:hover, .question .artList span.sTit a:hover {
+    color: #FF6600;
+}
+.question .artList span.sDetail {
+    color: #777777;
+    font: 14px/24px "Microsoft Yahei";
+}
+.banmain {
+    color: #777777;
+}
+.banmain a {
+    color: #333333;
+}
+.banmain a:hover {
+    color: #FF6600;
+}
+.banmain {
+    height: 50px;
+    line-height: 50px;
+}
+.banmain a, .banmain span {
+    padding: 0 8px;
+}
+.txtList .txtListBtm {
+    background-position: 0 -5px;
+}
+.txtLtit {
+    border-bottom: 2px solid #E5E5E5;
+    font-size: 18px;
+    height: 54px;
+    line-height: 54px;
+    padding-top: 15px;
+}
+.txtLmain img {
+    margin-right: 20px;
+}
+.txtLmain li {
+    border-bottom: 1px dashed #E5E5E5;
+    padding: 20px 0;
+    position: relative;
+    vertical-align: middle;
+}
+.txtLmain dt {
+    font-size: 20px;
+    height: 39px;
+    line-height: 29px;
+}
+.txtLmain dt span {
+    color: #AAAAAA;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.txtLmain dd {
+    color: #777777;
+    font-size: 14px;
+    line-height: 24px;
+    padding-right: 30px;
+}
+.txtLmain dd i {
+    display: block;
+    line-height: 14px;
+    padding-top: 20px;
+    text-align: right;
+}
+.txtList .artTit {
+    padding-bottom: 5px;
+}
+.txtList .artTit h1 {
+    height: 43px;
+    line-height: 43px;
+    padding-top: 27px;
+}
+.txtList .artTit p {
+    border-bottom: 1px dashed #E5E5E5;
+    color: #777777;
+    height: 27px;
+    line-height: 27px;
+    padding-bottom: 12px;
+}
+.txtList .artTit span {
+    padding-right: 15px;
+}
+.txtList .artTit span.artInfspn1 {
+    padding-right: 0;
+}
+.txtList .artTxt p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 20px 0;
+}
+.tN_r li {
+    position: relative;
+}
+.tN_r .tips p {
+    background: none repeat scroll 0 0 #E60000;
+    color: #FFFFFF;
+    float: left;
+    font-family: Arial,"ËÎÌו";
+    font-size: 12px;
+    height: 16px;
+    line-height: 15px;
+    padding: 0 4px;
+    white-space: nowrap;
+}
+.tN_r .tips p a {
+    color: #FFFFFF;
+}
+.HDtbC {
+    position: relative;
+}
+html body .wbfocus {
+    left: 0;
+    padding-left: 0;
+    position: absolute;
+    top: 125px;
+}
+body #bottom {
+    border-top: 2px solid #E5E5E5;
+    padding-top: 20px;
+}
+body #bottom .links {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    text-align: center;
+}
+body #bottom .links, body #bottom .links a {
+    color: #777777;
+}
+body #bottom .sites, body #bottom .sites a, body #bottom .sites a:link {
+    color: #777777;
+}
+body #bottom .sites a:hover, body #bottom .sites a:visited {
+    color: #777777;
+}
+body #bottom .left p, body #bottom .left p a, body #bottom .left p a:link {
+    color: #777777;
+}
+body #bottom .mid, body #bottom .mid a, body #bottom .mid a:link {
+    color: #777777;
+}
+.tN_r .chinaJoyA {
+    width: 120px;
+}
+.erwei {
+    position: fixed;
+    right: 0;
+    top: 130px;
+    z-index: 9999;
+}
+body .key_float_bg {
+    z-index: 1000;
+}
+body .key_float_float {
+    z-index: 1001;
+}
+
+.wapList {
+    float: left;
+    padding: 510px 0 0 30px;
+    width: 525px;
+}
+
+.wapLi2 .aPic {
+    background-position: -64px -64px;
+}
+.wapLi3 .aPic {
+    background-position: -128px -64px;
+}
+.wapLi4 .aPic {
+    background-position: -192px -64px;
+}
+.wapList .wapLi1 a:hover {
+    background-position: 0 0;
+}
+.wapList .wapLi2 a:hover {
+    background-position: -64px 0;
+}
+.wapList .wapLi3 a:hover {
+    background-position: -128px 0;
+}
+.wapList .wapLi4 a:hover {
+    background-position: -192px 0;
+}
+.wapList li {
+    display: inline;
+    float: left;
+    font-family: "Microsoft Yahei";
+    padding-bottom: 10px;
+    width: 240px;
+}
+.wapList .leftL {
+    padding-right: 43px;
+}
+.wapList dt {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 35px;
+}
+.wapList dt a {
+    color: #444444;
+}
+.wapList dt a:hover {
+    color: #323232;
+    text-decoration: none;
+}
+.wapList dd {
+    color: #737373;
+    font-size: 16px;
+    line-height: 35px;
+}
+.tN_r .wap .tips {
+    left: 60px;
+}
+.topNavs .center {
+    width: 980px;
+}

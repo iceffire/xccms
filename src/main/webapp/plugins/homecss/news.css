@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+.news_de{
+	width:1040px;
+}
+/*side_content*/
+.news_de .side_content{overflow: hidden;;}
+.news_de .side_content .side_content_title{height: 46px;border-bottom: solid #ccc 1px;overflow: hidden;}
+.news_de .side_content .side_content_title i{display: block;width: 14px;height: 14px;overflow: hidden;float: left;background-position: -55px -57px;position: relative;top: 15px;margin-right: 5px;}
+.news_de .side_content .side_content_title a{font: normal 14px/46px "Microsoft YaHei";color: #333;}
+.news_de .side_content .side_content_title a:hover{color: #0e7cc1;}
+
+.news_de .side_content .side_content_title .left{
+	width:900px;
+	float:left;
+}
+.news_de .side_content  .sub-news-table {
+	padding:20px;
+}
+.news_de .side_content  .sub-news-table ul{
+	
+}
+.news_de .side_content   .sub-news-table ul li{
+		line-height:30px;
+		list-style:disc;
+}
+.news_de .side_content  .sub-news-table ul li a{
+	color:#000;
+}
+.news_de .side_content  .sub-news-table ul li span{
+	float:right;
+}
+.news_de .side_content .m-page{
+	text-align:center;
+}
+.news_de .side_content .m-page{text-align:center;line-height:32px;font-size:0;letter-spacing:-0.307em;*letter-spacing:normal;*word-spacing:-1px;word-wrap:normal;white-space:nowrap;}
+.news_de .side_content .m-page a,.m-page i{display:inline-block;*display:inline;*zoom:1;vertical-align:top;padding:0 12px;margin-left:-1px;font-size:12px;letter-spacing:normal;word-spacing:normal;}
+.news_de .side_content .m-page a,.m-page a:hover{text-decoration:none;color:#333;}
+.news_de .side_content .m-page a.first{margin-left:0;}
+.news_de .side_content .m-page a.last{margin-right:0;}
+.news_de .side_content .m-page a .pagearr{font-weight:bold;font-family:\5b8b\4f53;vertical-align:top;*vertical-align:middle;}
+.news_de .side_content .m-page a.pageprv .pagearr{margin-right:3px;}
+.news_de .side_content .m-page a.pagenxt .pagearr{margin-left:3px;}
+.news_de .side_content .m-page a:hover{color:#fff;background:#309009;}
+.news_de .side_content .m-page a.z-crt,.m-page a.z-crt:hover,.m-page a.z-crt:active{cursor:default;color:#fff;background:#309009;}
+.news_de .side_content .m-page a.z-dis,.m-page a.z-dis:hover,.m-page a.z-dis:active{cursor:default;}
+
+
+/*news_detail*/
+ .side_content{
+ }
+ .side_content .side_content_title{
+ 	margin-top: 20px;
+ }
+ .side_content .side_content_title .left{
+	width:900px;
+	float:left;
+
+}
+.side_content .side_content_title .right a{
+	color:#000;
+}
+.side_content .news-detail{line-height:24px;margin-top: 40px;}
+.side_content .news-detail h1{padding:10px 0;line-height:28px;text-align:center;font-size:24px;color:#000;font-family:'microsoft yahei';}
+.side_content .news-detail .detail-time{position:relative;text-align:center;color:#666;font-size:12px;padding:5px 0;border-bottom:1px solid #ccc;}
+.side_content .news-detail .detail-user{text-align:center;color:#999;font-size:12px;padding:5px 0;margin-bottom:10px;border-bottom:1px solid #ccc;}
+.side_content .news-detail .detail-share{padding:5px 0;text-align:right}
+.side_content .news-detail .detail-img{text-align:center;padding:10px 0;border-bottom:1px solid #ccc;}
+.side_content .news-detail .detail-img img{max-width:100%;_width: expression((documentElement.clientWidth < 700) ? "" : "700px" );}
+.side_content .news-detail .detail-con{text-align:justify;padding:10px;border-bottom:1px solid #ccc;line-height:20px;color:#333;}
+.side_content .news-detail .detail-page{
+	margin-top:20px;
+}
+.side_content .news-detail .detail-page a{
+	color:#a2a2a2;
+}
+.side_content .news-detail .detail-page .page-text_left{
+	float:left;
+}
+.side_content .news-detail .detail-page .page-text_right{
+	float:right;
+}
+.side_content .news-detail .abstract{
+	font-size:12px;
+	line-height:20px;
+	border-bottom:1px solid #ddd;
+	padding:10px;
+}
+.footer_news{
+	margin-top:35px;
+}
+.footer_news_detail{
+	margin-top:35px;
+}

@@ -1,0 +1,37 @@
+*{
+	font-size:12px;
+}
+body {
+    font-family:helvetica,tahoma,verdana,sans-serif;
+    font-size:13px;
+    margin:0;
+}
+h2 {
+    font-size:18px;
+    font-weight:bold;
+    margin:0;
+    margin-bottom:15px;
+}
+.demo-info{
+	background:#FFFEE6;
+	color:#8F5700;
+	padding:12px;
+}
+.demo-tip{
+	width:16px;
+	height:16px;
+	margin-right:8px;
+	float:left;
+}
+#bottom{
+text-align:center;//居中
+font-size:12px;//字体大小为12像素
+line-height:20px;
+height:30px;
+width:100%;
+}
+a {
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+}

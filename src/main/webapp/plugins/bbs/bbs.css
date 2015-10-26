@@ -1,0 +1,393 @@
+@CHARSET "UTF-8";
+ul,li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+div,h2{
+	padding:0;
+	margin:0;
+	display:block;
+}
+body{
+	width:1040px;
+	margin:0 auto;
+}
+a{text-decoration:none;}
+a:hover{
+	text-decoration:underline;
+}
+.main{
+	margin:0;
+	padding:0;
+}
+.main .header{
+	background:#fbfbf9;
+}
+.main .nav{
+	border:1px solid #ddd;
+	background:url('../../Pages/images/navbg.jpg') repeat;
+	height:28px;
+	padding-top:20
+}
+.main .nav .umenu{
+	padding:0 10px;
+	line-height:30px;
+	width:300px;
+	float: left;
+}
+.main .nav .umenu a{
+	color:#000;
+	text-decoration:none;
+	
+}
+.main .nav .umenu a:hover{
+	text-decoration:underline;
+}
+.main .nav .menu{
+	float:right;
+	width:135px;
+	line-height:30px;
+}
+.main .nav .menu ul{
+	 border-right:1px solid #ddd;
+	  position:relative;
+}
+.main .nav .menu .current{
+	background:#fff;
+	text-align: center;
+}
+.main .nav .menu ul li{
+	   float: left;
+	  width:50px;
+	  height:30px;
+	  position:relative;
+	  
+}
+.main .sent_bbs{
+	background:url('../../Pages/images/newtopic.gif') no-repeat;
+	margin-top:20px;
+	height:30px;
+}
+.main .sent_bbs .sent_new {
+	float:left;
+}
+.main .sent_bbs .sent_new a{
+	color:#000;
+	padding-left:25px;
+	line-height:27px;
+}
+
+/*分页器*/
+.main .sent_bbs .m-page{text-align:center;float:right;}
+.main .sent_bbs .m-page{text-align:center;line-height:32px;font-size:0;letter-spacing:-0.307em;*letter-spacing:normal;*word-spacing:-1px;word-wrap:normal;white-space:nowrap;}
+.main .sent_bbs .m-page a,.m-page i{display:inline-block;*display:inline;*zoom:1;vertical-align:top;padding:0 12px;margin-left:-1px;font-size:12px;letter-spacing:normal;word-spacing:normal;}
+.main .sent_bbs .m-page a,.m-page a:hover{text-decoration:none;color:#333;}
+.main .sent_bbs .m-page a.first{margin-left:0;}
+.main .sent_bbs .m-page a.last{margin-right:0;}
+.main .sent_bbs .m-page a .pagearr{font-weight:bold;font-family:\5b8b\4f53;vertical-align:top;*vertical-align:middle;}
+.main .sent_bbs .m-page a.pageprv .pagearr{margin-right:3px;}
+.main .sent_bbs .m-page a.pagenxt .pagearr{margin-left:3px;}
+.main .sent_bbs .m-page a:hover{color:#fff;background:#309009;}
+.main .sent_bbs .m-page a.z-crt,.m-page a.z-crt:hover,.m-page a.z-crt:active{cursor:default;color:#fff;background:#309009;}
+.main .sent_bbs .m-page a.z-dis,.m-page a.z-dis:hover,.m-page a.z-dis:active{cursor:default;}
+
+/*正文*/
+
+.main .content_nav{
+	border: 1px solid #9DB3C5;
+	margin-top:30px;
+	padding-top:3px;
+}
+.main .content_nav h3{
+	padding-left: 10px;
+	line-height: 30px;
+	background: #4C7E8C url("../../Pages/images/header_bg.gif") repeat-x scroll 0% 0%;
+	color: #FFF;
+	margin-top: 0px;
+}
+.content_nav .choose_type{
+	margin-top: -10px;
+	
+	weight:28px;
+	line-height:30px;
+}
+.content_nav .choose_type .title{
+	background: url('../../Pages/images/cat_bg.gif') repeat;
+}
+.content_nav .choose_type ul {
+	  border-right:1px solid #ddd;
+	  position:relative;
+		
+}
+.content_nav .choose_type ul li{
+	   float: left;
+	  width:40px;
+	  height:30px;
+	  position:relative;
+	  font-size:13px;
+}
+.content_nav .choose_type ul li a{
+	font-size:13px;
+	color:#069;
+}
+.content_nav .choose_type .author{
+	width:200px;
+	line-height:30px;
+	text-align: center;
+	
+	font-size:13px;
+	
+}
+.content_nav .choose_type .author a{
+		color:#000;
+}
+.content_nav .choose_type .nums{
+	width:150px;
+	line-height:30px;
+	text-align: center;
+	
+	font-size:13px;
+}
+.content_nav .choose_type .nums a{
+	color:#000;
+}
+.content_nav .choose_type .lastpost{
+	width:200px;
+	line-height:30px;
+	text-align: center;
+	
+	font-size:13px;
+}
+.content_nav .choose_type .lastpost a{
+	color:#000;
+	display:block
+}
+.content_nav .choose_type .subject_common a{
+	font-weight: bold;
+	color: #8F2A90;
+	font-size:13px;
+}
+.main .footer{
+	overflow: hidden;
+	margin-top: 15px;
+	border-top: 1px solid #9DB3C5;
+	background: #E8F3FD none repeat scroll 0% 0%;
+	text-align: center;
+	color: #666;
+	font-size:13px;
+	line-height:10px;
+}
+
+/*搜索样式*/
+.main .search{
+	position: relative;
+	margin: 0px 5px 10px;
+	
+	
+}
+.main .search .header1{
+	background:none;
+	padding-bottom:10px;
+	font-size:12px;
+	text-align:left;
+	padding-top: 10px;
+}
+.main .search .header a{
+	font-weight: bold;
+	color: #069;
+
+}
+.main .search .s_content{
+	border-top: 5px solid #FFF;
+	background: transparent url("../../Pages/images/portalbox_bg.gif") repeat-x scroll 0% 0%;
+}
+.main .search .s_content .m_search{
+	padding: 30px 10px 20px 160px;
+}
+.main .search .m_search .label{
+	position: absolute;
+	left: 0px;
+	top: 30px;
+	width: 150px;
+	text-align: center;
+	padding-top:30px;
+	line-height: 30px;
+}
+.main .search .m_search .label span{
+	font-size: 26px;
+	color: #069;
+}
+.main .search .m_search .label strong{
+	display: block;
+	font-size: 14px;
+	color: #666;
+	font-weight: 400;
+	text-align: center;
+}
+
+.main .search .shadowline{
+	border-width: 1px 0px;
+	border-top-color: #C8DCEC;
+	border-bottom-color: #FFF;
+}
+.main .search .quick_search{
+	padding-left:30px;
+	margin-bottom:30px;
+}
+.main .search .quick_search h3{
+	font-size:14px;
+	color:#000;
+}
+.main .search .quick_search a{
+	font-size:12px;
+	color:#000;
+}
+
+/*帖子正文*/
+.detail_nav{
+	border-bottom: 1px solid #CAD9EA;
+	padding-left: 10px;
+		
+}
+.detail1
+{
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	margin-bottom:20px
+}
+ .detail_nav img{
+ 	margin-bottom: -6px;
+ }
+ .detail_nav .label1{
+	font-size:11px;
+		line-height:30px;
+}
+.back_content{
+	padding-left:20px;
+}
+.detail_content{
+	width:715px;
+	font-size:13px;
+	text-align: center;
+	
+}
+ .detail_content .detail_title{
+	margin-bottom: 8px;
+	
+}
+.detail_content .article{
+	border-bottom: 1px dashed #E8E8E8;
+	border-top: 1px dashed #E8E8E8;
+	padding-bottom:10px;
+}
+.content_nav .back{
+
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+
+}
+ .back .detail_nav img{
+ 	margin-bottom: -6px;
+ 	padding-top:none;
+ }
+ .main .tell{
+ 	margin-top:50px;
+ 	border:1px solid #ddd;
+ }
+  .main .tell .comment{
+  	font-size:13px;
+    margin-bottom: -60px;
+	margin-top: 70px;
+	margin-left: 42px;
+}
+.main .tell .button{
+	padding-top:20px;
+	padding-left:360px;
+}
+.main .tell .fabiao{
+   	font-size:18px;
+   	width:100px;
+   	height:30px;
+   	margin-bottom:10px;
+ }
+  /*======发帖界面======*/
+ .main .snav{
+ 	margin-top: 20px;
+ }
+ .main .snav a{
+ 	  font-weight: bold;
+  	  color: #069;
+  	  font-size:13px;
+ } 
+ .main .s_content{
+ 	margin-top:15px;
+ }
+ .main .btnSubmit{
+ }
+  .main .btnSubmit1{
+ 	 margin-left: 500px; 
+ 	 margin-top: 20px;
+ 	 font-size:15px;
+  }
+ 
+ /*======登录注册界面======*/
+.main .lnav{
+ 	  margin: 10px 5px;
+ 	  background:none;
+ }
+ .main .lnav a{
+ 	  font-weight: bold;
+  	  color: #069;
+  	  font-size:13px;
+ } 
+.main .login{
+	min-height: 450px;
+	border: 1px solid #CAD9EA;
+	background-color: #FFF;
+	clear: both;
+		
+}
+.main .content{
+	background: transparent url("../../Pages/images/portalbox_bg.gif") repeat-x scroll 0% 0%;
+}
+.main .content .l_content{
+	margin: 15px auto;
+	width: 600px;
+	margin-top: 0;
+	padding-top:20px;
+}
+.main .content .l_content .type{
+	float: left;
+	font-size: 14px;
+	font-weight: 700;
+	color: #069;
+}
+.main .content .l_content .post_box{
+	clear:both;
+	
+}
+.main .content .l_content .post_box .loginform{
+	padding-top:30px;
+}
+.main .content .l_content .post_box .loginform .pwd2{
+	margin-left: -16px;
+}
+
+.main .content .l_content .post_box .loginform .submit{
+	padding: 20px 60px 30px;
+}
+.main .content .l_content .post_box .loginform .submit a{
+	font-size:12px;
+	text-decoration: underline;
+	color:#000;
+}
+.main .content .l_content .post_box .loginform .submit a:hover{
+	color: #069;
+}
+.main .content .l_content .post_box .loginform .submit .submit1{
+
+	width: 60px;
+	height: 30px;
+	font-size: 15px;
+}

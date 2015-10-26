@@ -1,0 +1,42 @@
+#content {
+	background-image: url(../../images/blue-themes/login_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height:490px;
+}
+
+#login_div{
+	padding-left:590px;padding-top:100px;position:relative;
+}
+
+
+.regist_label{
+	font-weight:bold;color:#000000;
+	margin-left:50px;
+}
+
+.regist_link{
+	margin:10px 0 0 50px;font-weight:bold;
+}
+
+.split{
+	margin:10px;border-bottom:1px solid #C9C9C9;width:230px;
+}
+
+#loginError{
+	position:absolute;
+	background-color:#000;
+	color:#fff;
+	top:130px;
+	left:400px;
+	width:300px;
+	height:20px;
+	line-height:20px;
+	filter: Alpha(Opacity=60, Style=0);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	opacity:.6;
+	z-index:10;
+	display:none;
+	text-align:center;
+}

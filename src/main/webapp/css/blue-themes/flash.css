@@ -1,0 +1,234 @@
+
+#flash_div{
+	position:relative;
+	width:730px;
+	height:253px;
+}
+.flash_left{
+	position:absolute;
+	background:url(../../images/blue-themes/flash_bg_left.gif) no-repeat scroll 0 0 transparent;
+	width:5px;
+	height:253px;
+	left:0;
+}
+.flash_right{
+	position:absolute;
+	background:url(../../images/blue-themes/flash_bg_right.gif) no-repeat scroll 0 0 transparent;
+	width:5px;
+	height:253px;
+	right:0;
+}
+
+.flash_content{
+	position:absolute;
+	left:5px;
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+	width:720px;
+	height:252px;
+}
+
+.flash_link{
+	position:absolute;
+	left:2px;
+	top:7px;
+	width:200px;
+	border:1px solid #E6E6E6;
+	border-top:none;
+}
+
+.flash_link_li{
+	width:200px;
+	border-top:1px solid #E6E6E6;
+	height:58px;
+	line-height:58px;
+	font-size:14px;
+	text-align:center;
+	cursor:pointer;
+	background-color:#F5F5F5;
+	text-align:right;
+	padding-right:20px;
+}
+
+.flash_link_hover{
+	background-color:#FFF7EC;
+}
+
+.flash_link_focus{
+	background:url(../../images/blue-themes/flash_link_bg.gif) repeat-x scroll 0 0 transparent;
+	color:#FF8816;
+}
+
+.flash_image{
+	position:absolute;
+	left:212px;
+	top:7px;
+}
+
+.flash_image_div{
+	position:absolute;
+	left:0px;
+	right:1px;
+	display:none;
+	width:505px;
+	height:238px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+	Resets defualt browser settings
+	reset.css
+*/
+caption,th,td { text-align:left; font-weight:normal; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+blockquote,q { quotes:"" ""; }
+
+
+#example {
+	width:730px;
+	height:280px;
+	position:relative;
+	background:#EEE;
+	padding-top:3px;
+}
+
+#ribbon {
+	position:absolute;
+	top:-3px;
+	left:-15px;
+	z-index:500;
+}
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:739px;
+	height:341px;
+	top:-3px;
+	left:-80px;
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+	margin:auto;
+	border:5px solid #FFF;
+	z-index:100;
+	width:570px;
+	height:270px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+
+.slides_container {
+	width:570px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:570px;
+	height:270px;
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:50px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:655px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:0px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../../images/blue-themes/flash/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	z-index:500;
+	position:absolute;
+	bottom:-35px;
+	left:0;
+	height:25px;
+	padding:5px 20px 0 20px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	filter:alpha(opacity=50);
+	width:540px;
+	font-size:12px;;
+	line-height:20px;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+
+

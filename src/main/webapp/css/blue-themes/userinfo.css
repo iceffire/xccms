@@ -1,0 +1,40 @@
+.balance_div{
+	position:relative;
+	background:url(../../images/blue-themes/tips_bg.gif) repeat-x;
+	height:32px;
+	border:1px solid #ECDD98;
+	padding-left:30px;
+	margin-bottom:10px;
+}
+#recharge_account{
+	font-weight:bold;
+	color:#000000;
+}
+
+.balance_div li{
+	height:32px;
+	line-height:32px;
+	float:left;
+}
+.recharge_div{
+	border:4px solid #C3C7E2;
+	font-size:14px;
+}
+.recharge_div td{
+	padding:10px;
+}
+.person_setup{
+	position:relative;
+	height:32px;
+	margin-bottom:10px;
+	text-align:right;
+	width:150px;
+	
+}
+
+.person_setup_submit{
+	position:relative;
+	height:32px;
+	padding-left:30px;
+	margin-top:10px;
+}
